@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    min-width: 95%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/BgImage.jpg");
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;         /*Background Positioning*/
+    left: 0;        /*Background Positioning*/
+    height: 100%;   /*Background Positioning*/
+    width: 100%;    /*Background Positioning*/
+
+}
+
+H1 {
+    color: #A67200;
+    font-style:italic;
+    text-align: center;
+}
+
+H2 {
+    color: #A67200;
+    font-style:italic;
+    text-align: center;
+}
+
+H3 {
+    color: #A67200;
+    text-shadow:5px 5px 10px black;
+    text-align: center;
+}
+/*Heading colors ^^^^^*/
+
+/*CURRENTLY NOT IN USE
+H4 {
+    color: #0786a0;
+}
+CURRENTLY NOT IN USE*/
+
+P {
+    text-align:justify;
+    font-family: 'Muli', sans-serif;
+    font-size:13px;
+    font-weight:500;
+}
+
+ul.a {
+    list-style-type: upper-roman;
+    text-align: center;
+}
+
+#wrapper  {
+    overflow: auto;
+    width: 95%;
+    text-align: left;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background:#012746;
+    border:5px solid #558AB5;
+    border-radius:25px;
+    box-shadow:20px 20px 50px 20px black
+}
+
+.Header {
+    /*why can't i get a:link attributes to work here?*/
+    opacity: 0.6;   /* CSS3 */
+    line-height:90%;
+    display:block;
+
+}
+
+#mainContent {
+    float: left;
+    width: 55%;
+    padding-top: 1px;
+    margin: 0 10px 10px 10px;
+}
+
+#Images {
+    overflow: auto;
+    float: left;
+    width: 40%;
+    margin: 0 0 10px 10px;
+    background: #d4d6db; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d4d6db 0%, #afb0bf 14%, #afb1bf 16%, #989cad 27%, #8d91a3 39%, #81889b 52%, #3c4047 82%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4d6db), color-stop(14%,#afb0bf), color-stop(16%,#afb1bf), color-stop(27%,#989cad), color-stop(39%,#8d91a3), color-stop(52%,#81889b), color-stop(82%,#3c4047), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d4d6db 0%,#afb0bf 14%,#afb1bf 16%,#989cad 27%,#8d91a3 39%,#81889b 52%,#3c4047 82%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d4d6db 0%,#afb0bf 14%,#afb1bf 16%,#989cad 27%,#8d91a3 39%,#81889b 52%,#3c4047 82%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d4d6db 0%,#afb0bf 14%,#afb1bf 16%,#989cad 27%,#8d91a3 39%,#81889b 52%,#3c4047 82%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d4d6db 0%,#afb0bf 14%,#afb1bf 16%,#989cad 27%,#8d91a3 39%,#81889b 52%,#3c4047 82%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d6db', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    border:5px solid #558AB5;
+    border-radius:25px;
+}
+
+
+
+#footer {
+    margin-top: 10px;
+    clear: both;
+}
