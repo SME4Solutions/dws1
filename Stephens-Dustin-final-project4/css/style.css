@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    min-width: 95%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/BgImage.jpg");
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;         /*Background Positioning*/
+    left: 0;        /*Background Positioning*/
+    height: 100%;   /*Background Positioning*/
+    width: 100%;    /*Background Positioning*/
+
+}
+
+H1 {
+    color: #A67200;
+    font-style:italic;
+    text-align: center;
+}
+
+H2 {
+    color: #A67200;
+    font-style:italic;
+    text-align: center;
+}
+
+H3 {
+    color: #A67200;
+    text-shadow:5px 5px 10px black;
+    text-align: center;
+}
+/*Heading colors ^^^^^*/
+
+
+P {
+    text-align:justify;
+    font-family: 'Muli', sans-serif; /*Google fonts*/
+    font-size:13px;
+    font-weight:500;
+}
+
+ul.a {
+    list-style-type: upper-roman;
+    text-align: center;
+}
+
+#wrapper  {
+    overflow: auto;
+    width: 95%;
+    text-align: left;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background:#012746;
+    border:5px solid #558AB5;
+    border-radius:25px;
+    box-shadow:20px 20px 50px 20px black
+}
+
+#header {
+
+    opacity: 0.6;   /* CSS3 */
+    line-height:90%;
+    display:block;
+
+}
+
+header a:link {
+    background-color: #021349;
+    color:#596FB8;
+    text-decoration:none;
+}       /* unvisited link */
+header a:visited {
+    background-color: #454857;
+    color:#bee2e7;
+}    /* visited link , bit repetitive, but i may want to change these later*/
+header a:hover {
+    background-color: #596FB8;/*Dark blue=021349, light=596FB8*/
+    color:#021349;
+    text-decoration:none;
+}      /* mouse over link */
+header a:active {
+    background-color: #596FB8;
+    color:#021349;
+    text-decoration:none;
+}      /* selected link */
+
+
+
+#mainContent {
+    float: left;
+    width: 55%;
+    padding-top: 1px;
+    margin: 0 10px 10px 10px;
+}
+
+#table {
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    background: rgba(46, 48, 53, 0.82);
+    border-radius:13px;
+    box-shadow:20px 20px 50px 20px black
+}
+
+th{
+    background-color: #fff;
+    color:#000000;
+    border:solid 1px #303030;
+}
+
+td a:link, th a:active, th a:visited
+{
+    color: #fff;
+    ;
+}
+
+th a:hover
+{
+    color: #6d787e;
+}
+
+tr:hover,tr.alt:hover
+{
+    background: rgba(110, 149, 247, 0.27);
+}
+
+.zebra {
+    background: rgba(107, 111, 116, 0.82);
+}
+
+#images {
+    overflow: auto;
+    float: left;
+    width: 40%;
+    margin: 0 0 10px 10px;
+    background: linear-gradient(to bottom,  #d4d6db 0%,#afb0bf 14%,#afb1bf 16%,#989cad 27%,#8d91a3 39%,#81889b 52%,#3c4047 82%,#000000 100%); /* W3C */
+    border-radius:25px;
+    box-shadow:20px 20px 50px 20px black;
+}
+
+#signUp{
+
+    float: left;
+    width:30%;
+    height:auto;
+    margin:5px;
+    text-align: left;
+    padding: 10px;
+    background: rgba(46, 48, 53, 0.82);
+    border: none;
+    border-radius:25px;
+    box-shadow:20px 20px 50px 20px black
+}
+
+.title {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+}
+
+textarea:hover, input:hover {
+    background: rgba(110, 149, 247, 0.48);
+}
+
+textarea:focus, input:focus {
+    border: 2px solid #A67200;
+    }
+
+#footer {
+    margin-top: 10px;
+    clear: both;
+}
